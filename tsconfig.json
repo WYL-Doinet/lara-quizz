@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "preserve",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "lib": ["dom", "DOM.Iterable", "ESNext"],
+        "types": ["vite/client"]
+    },
+    "include": ["resources/**/*.ts", "resources/**/*.vue"],
+    "paths": {
+        "@images": ["resources/images"],
+        "@components": ["resources/js/components"],
+        "@hooks": ["resources/js/hooks"]
+    }
+}
